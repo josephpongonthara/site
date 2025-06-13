@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects – Joseph Pongonthara</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-clike.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-c.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-cpp.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-matlab.min.js"></script>
+  <script src="projects.js"></script>
+</head>
+<body class="projects-page">
+    <header class="projects-header">
+        <div class="nav-container">
+          <a class="logo-link" href="index.html">
+            <img src="assets/logo.png" alt="Site Logo" class="logo-img" />
+          </a>
+          <nav class="projects-nav-links fade-in">
+            <a href="about.html">About</a>
+            <a href="personal.html">Contact</a>
+          </nav>
+        </div>
+    </header>
+    <section class="fade-in">
+      <!-- Personal Pro Shop -->
+      <div class="container">
+        <h2>Personal Pro Shop</h2>
+        <!-- Embedded video -->
+        <div class="project-section fade-in">
+          <div class="project-content">
+            <div class="video-container">
+              <video controls width="100%" height="auto">
+                <source src="assets/videos/proshop.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="project-description">
+              <h3>Purpose</h3>
+              <p>Provide tennis equipment recommendations with reasoning based on user inputs.</p>
+              <h3>Requirements</h3>
+              <p>Foundry API Access</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Code Viewer -->
+        <div class="code-editor fade-in">
+          <div class="code-header">
+            <div class="traffic-buttons">
+              <span class="btn red"></span>
+              <span class="btn yellow"></span>
+              <span class="btn green"></span>
+            </div>
+            <div class="code-tabs">
+              <button class="tab active" data-file="assets/code/proshop/racket_scraping.py" data-lang="python">racket-scraping.py</button>
+              <button class="tab" data-file="assets/code/proshop/string_scraping.py" data-lang="python">string-scraping.py</button>
+              <button class="tab" data-file="assets/code/proshop/proxy-server.js" data-lang="JavaScript">proxy-server.js</button>
+              <button class="tab" data-file="assets/code/proshop/PageOne.jsx" data-lang="JavaScript XML">PageOne.jsx</button>
+              <button class="tab" data-file="assets/code/proshop/PageTwo.jsx" data-lang="JavaScript XML">PageTwo.jsx</button>
+              <button class="tab" data-file="assets/code/proshop/App.jsx" data-lang="JavaScript XML">App.jsx</button>
+              <button class="tab" data-file="assets/code/proshop/index.js" data-lang="JavaScript">index.js</button>
+            </div>
+          </div>
+          <pre class="code-content"><code class="language-python code-block">Loading...</code></pre>
+        </div>
+      </div>
+      <!-- Bike Buddy -->
+      <div class="container">
+        <h2>Bike Buddy</h2>
+        <div class="project-section fade-in">
+          <div class="project-content">
+            <div class="video-container">
+              <video controls width="100%" height="auto">
+                <source src="assets/videos/bikebuddy.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="project-description">
+              <h3>Purpose</h3>
+              <p>Provide blindspot warnings & approximate rear-view distance measurements for cyclists.</p>
+              <h3>Requirements</h3>
+              <p>Arduino R4, Adafruit 2.8" Screen, HM-10, TeraRanger Evo (60m), Power Supply, Mechanical Components</p>
+            </div>
+          </div>
+        </div>
+        <!-- Image Carousel -->
+        <div class="carousel">
+          <button class="carousel-btn left" onclick="prevImage()">❮</button>
+
+          <div class="carousel-image-wrapper">
+            <img id="carousel-image" src="assets/images/bikebuddy/arduino_enclosure_bottom.png" alt="Photo">
+            <p id="carousel-caption" class="carousel-caption"><em>Arduino Enclosure Bottom</em></p>
+          </div>
+
+          <button class="carousel-btn right" onclick="nextImage()">❯</button>
+        </div>
+        <!-- Code Viewer -->
+        <div class="code-editor fade-in">
+          <div class="code-header">
+            <div class="traffic-buttons">
+              <span class="btn red"></span>
+              <span class="btn yellow"></span>
+              <span class="btn green"></span>
+            </div>
+            <div class="code-tabs">
+              <button class="tab active" data-file="assets/code/bikebuddy/complete.ino" data-lang="C++">complete.ino</button>
+              <button class="tab" data-file="assets/code/bikebuddy/animations.cpp" data-lang="C++">animations.cpp</button>
+              <button class="tab" data-file="assets/code/bikebuddy/animations.h" data-lang="C++">animations.h</button>
+              <button class="tab" data-file="assets/code/bikebuddy/integration_test.ino" data-lang="C++">integration_test.ino</button>
+              <button class="tab" data-file="assets/code/bikebuddy/teraranger_test.ino" data-lang="C++">teraranger_test.ino</button>
+            </div>
+          </div>
+          <pre class="code-content"><code class="language-cpp code-block">Loading...</code></pre>
+        </div>
+      </div>
+      <!-- Ball & Beam -->
+      <div class="container">
+        <h2>Ball & Beam Controllers</h2>
+        <div class="project-section fade-in">
+          <div class="project-content">
+            <div class="video-container">
+              <video controls width="100%" height="auto">
+                <source src="assets/videos/ballbeam.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="project-description">
+              <h3>Achievement</h3>
+              <p>Designed two discrete time controllers (1 for gear angle, 1 for ball position) that would move a ball back and forth between two points
+                on a beam.</p>
+              <h3> Requirements</h3>
+              <p> MATLAB & MOSEK software libraries</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ball & beam p2 detail information-->
+      <div class="container">
+        <button class="toggle-button" onclick="toggleSection('ball-beam-details')">See Details</button>
+        <div id="ball-beam-details" class="hidden fade-in">
+          <div class="ballbeam-content-row">
+            <!-- Text Section -->
+            <div class="ballbeam-text">
+              <h3>Controller 1 Requirements</h3>
+              <ul>
+                <li>Closed-loop stability</li>
+                <li>≤ 0.25s settling time, ≤ 5% overshoot</li>
+                <li>Input voltage ≤ 7V</li>
+                <li>Zero steady-state error</li>
+              </ul>
+              <h3>Controller 2 Requirements</h3>
+              <ul>
+                <li>Closed-loop stability</li>
+                <li>≤ 0.25s settling time, ≤ 45% overshoot</li>
+                <li>Input voltage ≤ 7V</li>
+                <li>Zero steady-state error</li>
+              </ul>
+            </div>
+
+            <!-- Image Carousel -->
+            <div class="carousel ballbeam-carousel">
+              <button class="carousel-btn left" onclick="prevBallBeamImage()">❮</button>
+              <div class="carousel-image-wrapper">
+                <img id="ballbeam-carousel-image" src="assets/images/ballbeam/system.png" alt="Photo">
+                <p id="ballbeam-caption" class="carousel-caption"><em>Complete System</em></p>
+              </div>
+              <button class="carousel-btn right" onclick="nextBallBeamImage()">❯</button>
+            </div>
+          </div>
+          <!-- Code Viewer -->
+          <div class="code-editor fade-in">
+            <div class="code-header">
+              <div class="traffic-buttons">
+                <span class="btn red"></span>
+                <span class="btn yellow"></span>
+                <span class="btn green"></span>
+              </div>
+              <div class="code-tabs">
+                <button class="tab active" data-file="assets/code/ballbeam/controller.m" data-lang="matlab">controller.m</button>
+                <button class="tab" data-file="assets/code/ballbeam/c2d.m" data-lang="matlab">c2d.m</button>
+              </div>
+            </div>
+            <pre class="code-content"><code class="language-matlab code-block">Loading...</code></pre>
+          </div>
+          <div style="text-align: center; margin-top: 2rem;">
+            <button class="toggle-button" onclick="toggleSection('ball-beam-details')">Hide Details</button>
+          </div>
+        </div>
+      </div>
+      <!-- More Projects Section -->
+      <div class = "container">
+        <div class="more-projects fade-in">
+          <h2>More Projects</h2>
+
+          <!-- Search and Rescue Robot Card -->
+          <div class="project-card">
+            <h3>Search & Rescue Robot</h3>
+            <p>
+              Helped design & develop a FreeRTOS-based robotic system that integrates vision, autonomous navigation, and obstacle avoidance. 
+              Integrated ultrasonic and color sensors using I2C and SPI protocols, and implemented multi-threaded task scheduling in Arduino 
+              for precise motion and sensor control.
+            </p>
+            <div class="mini-carousel">
+              <button class="mini-carousel-btn left" onclick="prevSARImage()">❮</button>
+              <div class="mini-carousel-image-wrapper">
+                <img id="sar-carousel-image" src="assets/images/search/model.png" alt="Robot Solidworks Model" />
+              </div>
+              <button class="mini-carousel-btn right" onclick="nextSARImage()">❯</button>
+            </div>
+          </div>
+          <!-- MLE Basketball Classifier Card -->
+          <div class="project-card">
+            <h3>Basketball Draft Optimizer</h3>
+            <p>
+              Built a Python tool to assist fantasy basketball drafting by comparing player stats with historical winning benchmarks 
+              and recommending optimal picks based on category gaps.
+            </p>
+            <pre class="mini-code-viewer"><code id="draft-code" class="language-python">Loading...</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="site-footer fade-in">
+      <div class="footer-content">
+        <p>&copy; Copyright Joseph Pongonthara</p>
+        <div class="footer-icons">
+          <a href="mailto:jpongont@uwaterloo.ca" aria-label="Email Joseph">
+            <img src="assets/icons/email.svg" alt="Email Icon" class="footer-icon" />
+          </a>
+          <a href="https://www.linkedin.com/in/joseph-pongonthara" target="_blank" rel="noopener" aria-label="LinkedIn Profile">
+            <img src="assets/icons/linkedin.svg" alt="LinkedIn Icon" class="footer-icon" />
+          </a>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
