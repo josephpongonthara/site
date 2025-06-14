@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const rect = editor.getBoundingClientRect();
     const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
 
-    if (tabs.length > 0 && isVisible) {
+    if (tabs.length > 0) {
       loadCode(tabs[0]);
     }
     });
