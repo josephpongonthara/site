@@ -718,6 +718,12 @@ html, body {
   }
   .edu-logo {
     width: 80%; 
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .tool-logo {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
   }
   body {
     padding: 0 1rem;
