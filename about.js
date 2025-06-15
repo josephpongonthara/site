@@ -25,4 +25,23 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     type();
   }
+//touch feature for homebuttonless iphones
+if ("ontouchstart" in window) {
+    document.querySelectorAll(".edu-logo, .tool-logo").forEach((el) => {
+      el.addEventListener("touchstart", function () {
+        // Optional: close other overlays
+        document.querySelectorAll(".overlay").forEach((overlay) => {
+          if (overlay !== this.querySelector(".overlay")) {
+            overlay.style.opacity = "0";
+          }
+        });
+
+        const overlay = this.querySelector(".overlay");
+        if (overlay) {
+          // Toggle overlay
+          overlay.style.opacity = overlay.style.opacity === "1" ? "0" : "1";
+        }
+      });
+    });
+  }
 });
